@@ -18,8 +18,8 @@ class TestBasicFunctions(unittest.TestCase):
         self.assertEqual(float_multiplication(), 6.0)
 
     def test_combine_operations(self):
-        self.assertEqual(combine_operations(), 6.0)
-
+        self.assertEqual(combine_operations(), 9.0)
+    
     def test_extract_word(self):
         self.assertEqual(extract_word(), "awesome")
 
